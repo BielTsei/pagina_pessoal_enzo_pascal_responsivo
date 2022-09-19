@@ -600,3 +600,18 @@ section:nth-child(4) {
         left: 25px;
     }
 }
+
+@media (max-width: 425px) {
+    header {
+        margin-top: 10px;
+    }
+
+    header h3 {
+        font-size: 10px;
+    }
+
+
+
+
+
+}
