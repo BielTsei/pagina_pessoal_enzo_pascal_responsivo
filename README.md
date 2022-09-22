@@ -8,3 +8,5 @@ Image by
 https://unsplash.com/photos/gcsNOsPEXfs
 https://unsplash.com/photos/QEsaXprgVfQ
 https://unsplash.com/photos/m_HRfLhgABoc
+
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
