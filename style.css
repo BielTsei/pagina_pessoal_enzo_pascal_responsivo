@@ -467,8 +467,8 @@ section:nth-child(4) {
 
 /* ----------------- Responsivo --------------------*/
 
-@media (min-width: 425px) {
-    /*header .menu_desktop {
+@media (min-width: 500px) {
+    header .menu_desktop {
         text-align: right;
         margin-right: 5vw;
         margin-left: 0;
@@ -477,7 +477,25 @@ section:nth-child(4) {
     header img {
         margin-left: 5vw;
         text-align: left;
-    }*/
+    }
+
+    .ola {
+        font-size: 14px;
+    }
+
+    .nome {
+        font-size: 28px;
+    }
+
+    .qualificacoes {
+        font-size: 16px;
+    }
+
+    .paragrafo {
+        width: 90vw;
+        font-size: 16px;
+        line-height:28px;
+    }
 }
 
 
