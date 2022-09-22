@@ -17,13 +17,17 @@
 * {
     margin: 0 auto;
     padding: 0;
+
 }
 
 /* ---------------- cabeçalho ----------------*/
 
 header {
     /*background-color: #aca5bd0f;*/
-    margin:  0px auto;
+    /*margin:  0px auto;*/
+    text-align: right;
+    
+    margin-left: 0;
     display: flex;
     font-family: 'Montserrat-Regular';
     font-weight: 900;
@@ -35,14 +39,17 @@ header img {
     width: 100px;
     height: 100%;;
     margin: 0px auto;
+    margin-left: 3vw;
+    margin-right: auto;
 }
 
-header div {
+header .menu_desktop {
     box-sizing: border-box;
     display: flex;
     width: 600px;
     height: 85px;
-    margin:auto;
+    margin-right: 3vw;
+    margin-left: auto;
 }
 
 header h3 {
@@ -66,8 +73,8 @@ body {
 /* ---------------------- inicio "Home" ----------------------*/
 
 .container { 
-    padding-top: 43px;
-    padding-left: 124px;
+    padding-top: 8vh;
+    margin-left: 8vw;
     /*margin-bottom: 30px;*/
     width: 1395px;
     height: 617px;
@@ -135,6 +142,7 @@ figure {
     margin:0;
     padding:0;
     border:0;
+    width: 350px;
 }
 
 .foto {
@@ -152,13 +160,14 @@ figure {
 body section:nth-child(3) {
     background-color: white;
     height: 617px;
+    display: inline-block;
 }
 
 .title_sobre_mim {
     display: inline-block;
     margin-bottom: 35px;
     position: relative;
-    left: 747px;
+    margin-left: 50vw;
     top: 80px;
     color: #272727;
 }
@@ -176,7 +185,7 @@ body section:nth-child(3) {
     font-family: 'Montserrat-Regular';
     display: inline-block;
     position: relative;
-    left:380px;
+    margin-left: 50vw;
     top:200px;
     width: 650px;
     color: #272727;
@@ -191,7 +200,7 @@ body section:nth-child(3) {
     position: relative;
     top: -65px;
     left: -15px;
-    margin-left: 140px;
+    margin-left: 8vw;
     margin-bottom: 25px;
 }
 
@@ -203,7 +212,7 @@ body section:nth-child(3) {
     position: relative;
     top: -65px;
     left: -15px;
-    margin-left: 140px;
+    margin-left: 8vw;
     margin-bottom: 25px;
 }
 
@@ -215,7 +224,7 @@ body section:nth-child(3) {
     position: relative;
     top: -65px;
     left: -15px;
-    margin-left: 140px;
+    margin-left: 8vw;
     margin-bottom: 25px;
 }
 
@@ -227,7 +236,7 @@ body section:nth-child(3) {
     position: relative;
     top: -65px;
     left: -15px;
-    margin-left: 140px;
+    margin-left: 8vw;
     margin-bottom: 25px;
 }
 
@@ -246,7 +255,7 @@ body section:nth-child(3) {
     font-family: 'Montserrat-Regular';
     display: inline-block;
     position: relative;
-    left: 135px;
+    margin-left: 9vw;
     top: -63px;
     font-size:18px;
     color: #261447;
@@ -457,4 +466,63 @@ section:nth-child(4) {
 .atribuição {
     font-size: 14px;
     text-align: center;
+}
+
+/* ----------------- Responsivo --------------------*/
+
+@media (min-width: 425px) {
+    /*header .menu_desktop {
+        text-align: right;
+        margin-right: 5vw;
+        margin-left: 0;
+    }
+
+    header img {
+        margin-left: 5vw;
+        text-align: left;
+    }*/
+}
+
+
+@media (min-width: 768px) {
+    /*header .menu_desktop {
+        text-align: right;
+        margin-right: 5vw;
+        margin-left: 0;
+    }
+
+    header img {
+        margin-left: 5vw;
+        text-align: left;
+    }*/
+}
+
+@media (min-width: 1024px) {
+    /*header .menu_desktop {
+        text-align: right;
+        margin-right: 5vw;
+        margin-left: 0;
+    }
+
+    header img {
+        margin-left: 5vw;
+        text-align: left;
+    }
+
+    header h3 {
+        display: flex;
+        text-align: right;
+    }
+    button {
+        display: none;
+    }*/
+}
+
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+    
 }
