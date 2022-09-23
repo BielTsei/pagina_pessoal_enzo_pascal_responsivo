@@ -189,6 +189,10 @@ body section:nth-child(3) {
     line-height: 1.7rem;
 }
 
+.barra_de_habilidades {
+    width: 85%;
+}
+
 .barra {
     width: 510px;
     height: 10px;
@@ -467,7 +471,7 @@ section:nth-child(4) {
 
 /* ----------------- Responsivo --------------------*/
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
     header .menu_desktop {
         text-align: right;
         margin-right: 5vw;
@@ -495,6 +499,52 @@ section:nth-child(4) {
         width: 90vw;
         font-size: 16px;
         line-height:28px;
+    }
+
+    .foto {
+        display: inline-block;
+        position: relative;
+        left: 179px;
+        top: -40px;
+        width: 240px;
+    }
+
+    .barra {
+        margin-left: 22vw;
+        width: 270px;
+    }
+
+    .barra1 {
+        margin-left: 22vw;
+        width: 270px;
+    }
+
+    .barra2 {
+        margin-left: 22vw;
+        width: 270px;
+    }
+
+    .barra3 {
+        margin-left: 22vw;
+        width: 60vw;
+    }
+
+    .barra4 {
+        margin-left: 22vw;
+        width: 270px;
+    }
+
+    .porcentagem {
+        width: 15px;
+        position: relative;
+        align-items: center;
+        left: 290px;
+        top: -3px;
+        font-size: 14px;
+    }
+
+    .title_barra {
+        font-size: 14px;
     }
 }
 
