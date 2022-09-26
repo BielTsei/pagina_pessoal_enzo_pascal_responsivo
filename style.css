@@ -244,10 +244,10 @@ body section:nth-child(3) {
 .porcentagem {
     font-family: 'Montserrat-Regular';
     width: 25px;
-    position: relative;
+    /*position: relative;
     align-items: center;
     left: 530px;
-    top: -5px;
+    top: -5px;*/
     font-size: 20px;
     color: #272727;
 }
@@ -415,7 +415,7 @@ section:nth-child(4) {
 }
 
 .box {
-    width: 1400px;;
+    width: auto;
     height: 660px;
 }
 
@@ -504,13 +504,21 @@ section:nth-child(4) {
     .foto {
         display: inline-block;
         position: relative;
-        left: 179px;
-        top: -15px;
-        width: 240px;
+        left: -15px;
+        top: 10px;
+        width: 250px;
+    }
+
+    figure {
+        margin:0px;
+        padding:0px;
+        border:0px;
     }
 
     .button {
-        height: 6.5vh;
+        position: relative;
+        bottom: 345px;
+        height: 10.5vh;
         padding-left: 33px;
         padding-right: 33px;
         color: white;
@@ -548,12 +556,9 @@ section:nth-child(4) {
     }
 
     .porcentagem {
-        width: 15px;
-        position: relative;
-        align-items: center;
-        left: 310px;
-        top: -3px;
+        width: 30px;
         font-size: 14px;
+        margin-left: 63vw;
     }
 
     .title_barra {
@@ -608,7 +613,7 @@ section:nth-child(4) {
 
     section:nth-child(4) {
         background-color: #F9F9F9;
-        width: 1519px;
+        width: auto;
         height: 2900px;
         /*display:inline-block;*/
         margin: 0px auto;
@@ -679,6 +684,100 @@ section:nth-child(4) {
     .check:hover {
         color: white;
         background-color: #00a78e;
+    }
+
+    /* ==========================
+            Projetos 
+    ================================*/
+
+    .title_projetos{
+        display: inline-block;
+        width: 180px;
+        height: 45px;
+        margin: 48px 0px 33px 122px; 
+        font-size: 20px;
+        color: #00a78e;
+    }
+    
+    .text_projetos {
+        display: flex;
+        letter-spacing: 1.5px;
+        word-spacing: 2.5px;
+        margin: 0px;
+        font-size:12px;
+        color:white;
+        text-align:end;
+        box-sizing: border-box;
+        padding-top: 20px;
+    }
+    
+    .text_projetos1 {
+        display: flex;
+        letter-spacing: 1.5px;
+        word-spacing: 2.5px;
+        margin: 0px;
+        font-size:12px;
+        color:white;
+        text-align:end;
+        box-sizing: border-box;
+        padding-top: 20px;
+    }
+    
+    #imagens {
+        display: flex;
+        flex-direction: column;
+        height: 250px;;
+        margin: 0px 0px 0px 122px;
+        width: 1396px;
+    }
+    
+    .imgs {
+        box-sizing: border-box;
+        margin-left: -8.2vw;
+        margin-right: 0px;
+        border-radius: 5px;
+        display: flex;
+        /*max-width: 300px;
+        max-height: 250px;*/
+        width: 320px;
+        height: 210px;
+        box-shadow: 0px 0px 10px 0px rgb(196 196 196 / 30%);
+    }
+    
+    .title_box {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 26px;
+        text-align: center;
+        color:white ;
+    }
+    
+    .box {
+        /*width: 1400px;*/
+        height: 1820px;
+    }
+    
+    .box_projetos {
+        display: flex;
+        margin-left: 16vw;
+        margin-right: 15px;
+        margin-bottom: 45px;
+        width: 280px;
+        height: 280px;
+        background-color: #00a78e;
+        border-radius:5px;
+        box-shadow: 0px 0px 10px 0px rgb(196 196 196 / 30%);
+        box-sizing: border-box;
+        padding: 7px 30px 7px 30px;
+        line-height: 25px;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box_projetos:hover {
+        background-color: #293651;
+        color: white;
     }
 }
 
@@ -796,6 +895,8 @@ section:nth-child(4) {
         color: #272727;
         line-height: 1.7rem;
     }
+
+    
 }
 
 @media (min-width: 1024px) {
