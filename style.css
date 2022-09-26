@@ -471,7 +471,7 @@ section:nth-child(4) {
 
 /* ----------------- Responsivo --------------------*/
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     header .menu_desktop {
         text-align: right;
         margin-right: 5vw;
@@ -520,47 +520,43 @@ section:nth-child(4) {
     }
 
     .barra {
-        margin-left: 22vw;
-        width: 270px;
-    }
-
-    .barra1 {
-        margin-left: 22vw;
-        width: 270px;
+        margin-left: 20vw;
+        width: 60vw;
     }
 
     .barra2 {
-        margin-left: 22vw;
-        width: 270px;
+        margin-left: 20vw;
+        width: 60vw;
     }
 
     .barra3 {
-        margin-left: 22vw;
+        margin-left: 20vw;
         width: 60vw;
     }
 
     .barra4 {
-        margin-left: 22vw;
-        width: 270px;
+        margin-left: 20vw;
+        width: 60vw;
     }
 
     .porcentagem {
         width: 15px;
         position: relative;
         align-items: center;
-        left: 290px;
+        left: 310px;
         top: -3px;
         font-size: 14px;
     }
 
     .title_barra {
         font-size: 14px;
+        margin-left: -5vw;
     }
 }
 
 
 @media (min-width: 768px) {
-    /*header .menu_desktop {
+    header .menu_desktop {
         text-align: right;
         margin-right: 5vw;
         margin-left: 0;
@@ -569,7 +565,79 @@ section:nth-child(4) {
     header img {
         margin-left: 5vw;
         text-align: left;
-    }*/
+    }
+
+    .ola {
+        font-size: 16px;
+    }
+
+    .nome {
+        font-size: 30px;
+    }
+
+    .qualificacoes {
+        font-size: 18px;
+    }
+
+    .paragrafo {
+        width: 90vw;
+        font-size: 18px;
+        line-height:28px;
+    }
+
+    .foto {
+        display: inline-block;
+        position: relative;
+        left: 270px;
+        top: -74px;
+        width: 275px;
+    }
+
+    .button {
+        height: 6.5vh;
+        padding-left: 34px;
+        padding-right: 34px;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 13px;
+    }
+
+    .barra {
+        margin-left: 20vw;
+        width: 60vw;
+    }
+
+    .barra2 {
+        margin-left: 20vw;
+        width: 60vw;
+    }
+
+    .barra3 {
+        margin-left: 20vw;
+        width: 60vw;
+    }
+
+    .barra4 {
+        margin-left: 20vw;
+        width: 60vw;
+    }
+
+    .porcentagem {
+        display: inline-block;
+        width: auto;
+        margin-left: -50px;
+        position: relative;
+        align-items: center;
+        left: 525px;
+        top: -10px;
+        font-size: 16px;
+    }
+
+    .title_barra {
+        font-size: 16px;
+        margin-left: 5vw;
+    }
 }
 
 @media (min-width: 1024px) {
