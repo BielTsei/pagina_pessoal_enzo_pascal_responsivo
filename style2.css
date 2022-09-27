@@ -96,16 +96,13 @@ nav {
 
     .fundo {
         margin:0;
-        /*background-image: url(svg/Página\ 1.svg);*/
-        background-size: 100vw;
-        background-repeat: repeat;
-        position: relative;
+        height: 92vh;
+        background-color: #959595;
     }
 
     .container {
-        /*background-color: #cecece;*/
         width: auto;
-        height: auto;
+        height: 92vh;
         margin-left: 10vw;
         margin-right: 10vw;
     }
@@ -113,7 +110,8 @@ nav {
     .ola {
         font-size: 20px;
         font-family: 'Montserrat-Regular';
-        margin-top: 30px;
+        box-sizing: border-box;
+        padding-top:25px;
     }
 
     .nome {
@@ -137,11 +135,8 @@ nav {
     }
 
     .foto {
-        display:block;
+        display:inline-block;
         width: 250px;
-        position: absolute;
-        right: 0;
-        float: right;
     }
 
     .button {
@@ -162,6 +157,18 @@ nav {
     
     .button:hover{
         background-color: #29dec2;
+    }
+
+    #container_sobre_mim{
+        color: #272727;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .title_sobre_mim {
+        font-family: 'Montserrat-Medium';
+        font-size: 16px;
+        margin-top: 20px;
     }
 }
 
