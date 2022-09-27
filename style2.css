@@ -338,6 +338,10 @@ nav {
         align-items: center;
     }
 
+    .box_projetos:hover {
+        background-color: #00a78e26;
+    }
+
     .title_box {
         padding-top: 25px;
         font-family: 'Montserrat-Medium';
@@ -365,20 +369,46 @@ nav {
     .imgs1 {
         width: 250px;
         border-radius: 10px;
-        padding-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .imgs2 {
         width: 250px;
         border-radius: 10px;
-        padding-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .imgs3 {
         width: 250px;
         border-radius: 10px;
-        padding-bottom: 25px;
+        margin-bottom: 20px;
     }
+
+    .contato {
+        font-family: 'Montserrat-Regular';
+        text-align: center;
+        background-color: #F9F9F9;
+        color: #272727;
+        height: 210px;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+    
+    .title_contato {
+        margin-bottom:25px;
+        font-size: 20px;
+    }
+    
+    #contato {
+        margin: 15px 0px 25px 0px;
+        font-size: 18px;
+    }
+    
+    .atribuição {
+        font-size: 14px;
+        text-align: center;
+    }
+    
 }
 
 @keyframes navLinkFade {
