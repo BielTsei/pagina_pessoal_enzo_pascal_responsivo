@@ -472,42 +472,54 @@ section:nth-child(4) {
 /* ----------------- Responsivo --------------------*/
 
 @media (min-width: 500px) {
-    header .menu_desktop {
-        text-align: right;
-        margin-right: 5vw;
+    header {
+        /*text-align: right;*/
+        /*margin-right: 5vw;*/
         margin-left: 0;
     }
 
-    header img {
-        margin-left: 5vw;
-        text-align: left;
+    a {
+        text-decoration: none;
     }
 
-    .ola {
-        font-size: 14px;
+    .logo {
+        text-decoration: none;
+        color:#272727;
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
     }
 
-    .nome {
-        font-size: 28px;
+    .menu_trigger {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        height: 8vh;
     }
 
-    .qualificacoes {
-        font-size: 16px;
+    .nav_list a {
+        text-decoration:none;
+        color:#272727;
+        transition: 0.3s;
     }
 
-    .paragrafo {
-        width: 90vw;
-        font-size: 16px;
-        line-height:28px;
+    a:hover {
+        opacity: 0.7;
     }
 
-    .foto {
-        display: inline-block;
-        position: relative;
-        left: -15px;
-        top: 10px;
-        width: 250px;
+    .nav_list {
+        list-style: none;
+        display: flex;
+
     }
+
+    .nav_list li {
+        letter-spacing: 3px;
+        margin-left: 32px;
+
+    }
+
+    c
 
     figure {
         margin:0px;
@@ -517,8 +529,8 @@ section:nth-child(4) {
 
     .button {
         position: relative;
-        bottom: 345px;
-        height: 10.5vh;
+        bottom: 310px;
+        height: 45px;
         padding-left: 33px;
         padding-right: 33px;
         color: white;
@@ -665,6 +677,8 @@ section:nth-child(4) {
         justify-content: center;
         align-content: center;
         flex-wrap: nowrap;
+        position: relative;
+        left: -10px;
     }
     
     .check p {
@@ -744,6 +758,48 @@ section:nth-child(4) {
         box-shadow: 0px 0px 10px 0px rgb(196 196 196 / 30%);
     }
     
+    .imgs1 {
+        box-sizing: border-box;
+        margin-left: -8.2vw;
+        margin-right: 0px;
+        border-radius: 5px;
+        position: relative;
+        left: 19px;
+        top: 40px;
+        display: flex;
+        width: 320px;
+        height: 210px;
+        box-shadow: 0px 0px 10px 0px rgb(196 196 196 / 30%);
+    }
+
+    .imgs2 {
+        box-sizing: border-box;
+        margin-left: -8.2vw;
+        margin-right: 0px;
+        border-radius: 5px;
+        position: relative;
+        left: 19px;
+        top: 87px;
+        display: flex;
+        width: 320px;
+        height: 210px;
+        box-shadow: 0px 0px 10px 0px rgb(196 196 196 / 30%);
+    }
+
+    .imgs3 {
+        box-sizing: border-box;
+        margin-left: -8.2vw;
+        margin-right: 0px;
+        border-radius: 5px;
+        position: relative;
+        left: 19px;
+        top: 87px;
+        display: flex;
+        width: 320px;
+        height: 210px;
+        box-shadow: 0px 0px 10px 0px rgb(196 196 196 / 30%);
+    }
+
     .title_box {
         font-family: 'Montserrat', sans-serif;
         font-size: 26px;
@@ -753,14 +809,14 @@ section:nth-child(4) {
     
     .box {
         /*width: 1400px;*/
-        height: 1820px;
+        height: 1635px;
     }
     
     .box_projetos {
         display: flex;
         margin-left: 16vw;
         margin-right: 15px;
-        margin-bottom: 45px;
+        margin-bottom: 260px;
         width: 280px;
         height: 280px;
         background-color: #00a78e;
@@ -771,8 +827,9 @@ section:nth-child(4) {
         line-height: 25px;
         align-content: center;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        position: relative;
+        left: 26px;
     }
     
     .box_projetos:hover {
