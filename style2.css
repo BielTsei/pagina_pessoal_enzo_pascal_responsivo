@@ -62,7 +62,7 @@ nav {
     transition: 0.3s;
 }*/
 
-@media (min-width: 540px) {
+@media (min-width: 320px) {
     /*body {
         overflow-x: hidden;
     }
@@ -87,13 +87,13 @@ nav {
         opacity: 0;
     }*/
 
-    .mobile_menu {
+    /*.mobile_menu {
         display: block;
     }
 
     .nav_list.active {
         transform: translateX(0);
-    }
+    }*/
 
     .fundo {
         margin:0;
@@ -138,11 +138,10 @@ nav {
 
     .foto {
         display:flex;
-        width: 450px;
+        width: 750px;
         position:absolute;
         right: 30px;
         bottom: 0;
-
     }
 
     .button {
@@ -420,7 +419,7 @@ nav {
     
 }
 
-@media (min-width: 720px) {
+@media (min-width: 375px) {
     /*body {
         overflow-x: hidden;
     }
@@ -777,7 +776,7 @@ nav {
     
 }
 
-@media (min-width: 960px) {
+@media (min-width: 425px) {
 
     .fundo {
         margin:0;
@@ -821,11 +820,10 @@ nav {
 
     .foto {
         display:flex;
-        width: 280px;
+        width: 250px;
         position:absolute;
         right: 0;
         bottom: 0;
-
     }
 
     .button {
@@ -861,6 +859,7 @@ nav {
 
     #sobre_mim {
         margin-bottom: 1vh;
+        margin-top: 4vh;
     }
 
     .paragrafo_sobre_mim {
@@ -932,7 +931,7 @@ nav {
     .icons {
         display: flex;
         justify-content: space-between;
-        margin: 30px auto;
+        margin: 40px auto;
         filter:drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.418));
     }
 
@@ -986,18 +985,17 @@ nav {
         font-size:16px;
         color:black;
         text-align:center;
-        padding-bottom: 30px;
     }
 
     .text_habilidades {
         display: inline-block;
-        padding-bottom:30px;
+        padding-bottom: 15px;
         box-sizing: border-box;
     }
 
     .title_projetos {
         font-family: 'Montserrat-Medium';
-        padding-top: 10px;
+        padding-top: 30px;
         padding-bottom: 30px;
         text-align: center;
         font-size: 32px;
@@ -1012,7 +1010,7 @@ nav {
     .box_projetos {
         display: flex;
         width: 80vw;
-        height: 300px;
+        height: 425px;
         box-sizing: border-box;
         padding: 30px;
         border-radius: 10px;
@@ -1740,7 +1738,7 @@ nav {
     
 }
 
-@keyframes navLinkFade {
+/*@keyframes navLinkFade {
     from {
         opacity: 0;
         transform: translateX(50px);
@@ -1764,4 +1762,4 @@ nav {
 
 .mobile_menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
-}
+}*/
