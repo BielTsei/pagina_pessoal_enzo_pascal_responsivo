@@ -49,7 +49,7 @@ nav {
     margin-left: 32px;
 }
 
-.mobile_menu {
+/*.mobile_menu {
     display: none;
     cursor: pointer;
 }
@@ -60,7 +60,7 @@ nav {
     margin: 8px;
     background: #fff;
     transition: 0.3s;
-}
+}*/
 
 @media (min-width: 500px) {
     /*body {
@@ -459,37 +459,38 @@ nav {
     }
 
     .ola {
-        font-size: 20px;
+        font-size: 40px;
         font-family: 'Montserrat-Regular';
         box-sizing: border-box;
-        padding-top:25px;
+        padding-top: 45px;
     }
 
     .nome {
-        font-size: 38px;
+        font-size: 58px;
         font-family: 'Montserrat-Black';
         margin-top: 20px;
+        color: #261447;
     }
 
     .qualificacoes {
-        font-size: 18px;
+        font-size: 30px;
         font-family: 'Montserrat-Regular';
-        margin-top: 20px;
+        margin-top: 35px;
         letter-spacing: 2px;
     }
 
     .paragrafo {
-        font-size: 16px;
-        line-height:24px;
+        font-size: 30px;
+        line-height: 40px;
         font-family: 'Montserrat-Regular';
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .foto {
         display:flex;
-        width: 250px;
+        width: 650px;
         position:absolute;
-        right: 0;
+        right: 30px;
         bottom: 0;
 
     }
@@ -499,14 +500,14 @@ nav {
         background-color: #00a78e;
         border: 0px; 
         border-radius: 10px;
-        height: 50px;
-        padding-left: 30px;
-        padding-right: 30px;
+        height: 100px;
+        padding-left: 60px;
+        padding-right: 60px;
         color: white;
-        font-size: 16px;
+        font-size: 32px;
         letter-spacing: 1px;
         font-weight: 200;
-        margin-top: 25px;
+        margin-top: 35px;
     }
     
     .button:hover{
@@ -521,7 +522,7 @@ nav {
 
     .title_sobre_mim {
         font-family: 'Montserrat-Medium';
-        font-size: 16px;
+        font-size: 28px;
         margin-top: 20px;
     }
 
@@ -535,7 +536,8 @@ nav {
         width: auto;
         height: auto;
         color: #272727;
-        line-height: 1.7rem;
+        font-size: 20px;
+        line-height: 40px;
         margin-top: 2vh;
         margin-bottom: 3vh;
     }
@@ -545,27 +547,26 @@ nav {
     }
 
     .title_barra {
-        font-family: 'Montserrat-Regular';
+        font-family: 'Montserrat-Black';
         font-weight: 900;
         display: inline-block;
-        font-size:14px;
+        font-size: 24px;
         color: #261447;
         margin-bottom: 15px;
     }
 
     .porcentagem {
         display: inline-block;
-        font-family: 'Montserrat-Regular';
+        font-family: 'Montserrat-Black';
         width: 77vw;
         text-align: right;
-        font-size: 14px;
-        color: #272727;
+        font-size: 24px;
+        color: #261447;
     }
     
-
     .barra {
         width: 70vw;
-        height: 10px;
+        height: 20px;
         border-radius: 10px;
         background: linear-gradient(to right, #00a78e 90%,#d7d7d7 10%);
         margin-bottom: 3vh;
@@ -573,7 +574,7 @@ nav {
     
     .barra2 {
         width: 70vw;
-        height: 10px;
+        height: 20px;
         border-radius: 10px;
         background: linear-gradient(to right, #00a78e 65%,#d7d7d7 10%);
         margin-bottom: 3vh;
@@ -581,7 +582,7 @@ nav {
     
     .barra3 {
         width: 70vw;
-        height: 10px;
+        height: 20px;
         border-radius: 10px;
         background: linear-gradient(to right, #00a78e 85%,#d7d7d7 10%);
         margin-bottom: 3vh;
@@ -589,7 +590,7 @@ nav {
     
     .barra4 {
         width: 70vw;
-        height: 10px;
+        height: 20px;
         border-radius: 10px;
         background: linear-gradient(to right, #00a78e 75%,#d7d7d7 10%);
         margin-bottom: 3vh;
@@ -604,9 +605,9 @@ nav {
 
     .title_habilidades {
         font-family: 'Montserrat-Medium';
-        font-size: 32px;
+        font-size: 38px;
         text-align: center;
-        color: #272727;
+        color: #261447;
     }
 
     #container_habilidades {
@@ -628,7 +629,7 @@ nav {
         font-size: 25px;
         color:#00a78e ;
         width: 80vw;
-        height: 200px;
+        height: 260px;
         background-color: #f9f9f9;
         border-radius:5px;
         box-shadow: 0px 5px 15px 5px rgb(196 196 196 / 80%);
@@ -649,16 +650,18 @@ nav {
 
     .check p {
         font-family: 'Montserrat-Regular';
-        font-size:16px;
-        color:black;
-        text-align:center;
-        padding-bottom: 30px;
+        font-size: 24px;
+        color: black;
+        text-align: center;
+        padding-bottom: 5px;
+        line-height: 30px;
     }
 
     .text_habilidades {
         display: inline-block;
-        padding-bottom:30px;
+        padding-bottom: 30px;
         box-sizing: border-box;
+        font-size: 28px;
     }
 
     .title_projetos {
@@ -666,7 +669,8 @@ nav {
         padding-top: 10px;
         padding-bottom: 30px;
         text-align: center;
-        font-size: 32px;
+        font-size: 38px;
+        color: #261447;
     }
 
     .box {
@@ -678,7 +682,7 @@ nav {
     .box_projetos {
         display: flex;
         width: 80vw;
-        height: 300px;
+        height: 470px;
         box-sizing: border-box;
         padding: 30px;
         border-radius: 10px;
@@ -697,6 +701,7 @@ nav {
         padding-top: 25px;
         font-family: 'Montserrat-Medium';
         text-align: center;
+        font-size: 28px;
     }
 
     .text_projetos1{ 
@@ -705,32 +710,34 @@ nav {
         box-sizing: border-box;
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 14px;
+        font-size: 24px;
+        line-height: 30px;
     }
 
     .text_projetos{ 
         font-family: 'Montserrat-Regular';
         text-align: center;
         box-sizing: border-box;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 24px;
+        line-height: 30px;
     }
 
     .imgs1 {
-        width: 250px;
+        width: 350px;
         border-radius: 10px;
         margin-bottom: 20px;
     }
 
     .imgs2 {
-        width: 250px;
+        width: 350px;
         border-radius: 10px;
         margin-bottom: 20px;
     }
 
     .imgs3 {
-        width: 250px;
+        width: 350px;
         border-radius: 10px;
         margin-bottom: 20px;
     }
@@ -739,25 +746,26 @@ nav {
         font-family: 'Montserrat-Regular';
         text-align: center;
         background-color: #F9F9F9;
-        color: #272727;
-        height: 210px;
+        color: #261447;
+        height: 255px;
         box-sizing: border-box;
         padding: 25px;
     }
     
     .title_contato {
-        margin-bottom:25px;
-        font-size: 20px;
+        margin-bottom: 25px;
+        font-size: 38px;
     }
     
     #contato {
         margin: 15px 0px 25px 0px;
-        font-size: 18px;
+        font-size: 28px;
     }
     
     .atribuição {
-        font-size: 14px;
+        font-size: 20px;
         text-align: center;
+        padding-bottom: 40px;
     }
     
 }
