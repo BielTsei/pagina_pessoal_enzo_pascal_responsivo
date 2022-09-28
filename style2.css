@@ -63,7 +63,7 @@ nav {
 }
 
 @media (min-width: 500px) {
-    body {
+    /*body {
         overflow-x:hidden;
     }
 
@@ -86,7 +86,7 @@ nav {
         margin-left: 0;
         opacity: 0;
         color: #fff;
-    }
+    }*/
 
     .mobile_menu {
         display: block;
@@ -413,7 +413,7 @@ nav {
 }
 
 @media (min-width: 770px) {
-    body {
+    /*body {
         overflow-x: hidden;
     }
 
@@ -435,7 +435,7 @@ nav {
     .nav_list li {
         margin-left: 0;
         opacity: 0;
-    }
+    }*/
 
     .mobile_menu {
         display: block;
