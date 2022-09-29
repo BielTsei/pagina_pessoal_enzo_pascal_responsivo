@@ -1534,7 +1534,7 @@ nav {
         font-family: 'Montserrat-Regular';
         font-weight: 900;
         display: inline-block;
-        font-size:14px;
+        font-size: 1.2em;
         color: #261447;
         margin-bottom: 15px;
     }
@@ -1544,14 +1544,14 @@ nav {
         font-family: 'Montserrat-Regular';
         width: 77vw;
         text-align: right;
-        font-size: 14px;
+        font-size: 1.2em;
         color: #272727;
     }
     
 
     .barra {
         width: 70vw;
-        height: 10px;
+        height: 16px;
         border-radius: 10px;
         background: linear-gradient(to right, #00a78e 90%,#d7d7d7 10%);
         margin-bottom: 3vh;
@@ -1559,7 +1559,7 @@ nav {
     
     .barra2 {
         width: 70vw;
-        height: 10px;
+        height: 16px;
         border-radius: 10px;
         background: linear-gradient(to right, #00a78e 65%,#d7d7d7 10%);
         margin-bottom: 3vh;
@@ -1567,7 +1567,7 @@ nav {
     
     .barra3 {
         width: 70vw;
-        height: 10px;
+        height: 16px;
         border-radius: 10px;
         background: linear-gradient(to right, #00a78e 85%,#d7d7d7 10%);
         margin-bottom: 3vh;
@@ -1575,7 +1575,7 @@ nav {
     
     .barra4 {
         width: 70vw;
-        height: 10px;
+        height: 16px;
         border-radius: 10px;
         background: linear-gradient(to right, #00a78e 75%,#d7d7d7 10%);
         margin-bottom: 3vh;
@@ -1590,7 +1590,7 @@ nav {
 
     .title_habilidades {
         font-family: 'Montserrat-Medium';
-        font-size: 32px;
+        font-size: 2.5em;
         text-align: center;
         color: #272727;
     }
@@ -1627,6 +1627,8 @@ nav {
         place-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
     .check:hover {
@@ -1639,14 +1641,14 @@ nav {
         font-size:16px;
         color:black;
         text-align:center;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
         padding-left: 10px;
         padding-right: 10px;
     }
 
     .text_habilidades {
         display: inline-block;
-        padding-bottom:30px;
+        padding-bottom: 20px;
         box-sizing: border-box;
     }
 
@@ -1655,7 +1657,7 @@ nav {
         padding-top: 30px;
         padding-bottom: 30px;
         text-align: center;
-        font-size: 32px;
+        font-size: 2.5em;
     }
 
     .box {
@@ -1695,7 +1697,7 @@ nav {
         box-sizing: border-box;
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .text_projetos{ 
@@ -1704,7 +1706,7 @@ nav {
         box-sizing: border-box;
         padding-top: 15px;
         padding-bottom: 15px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .imgs1 {
@@ -1737,16 +1739,16 @@ nav {
     
     .title_contato {
         margin-bottom:25px;
-        font-size: 20px;
+        font-size: 2em;
     }
     
     #contato {
         margin: 15px 0px 25px 0px;
-        font-size: 18px;
+        font-size: 20px;
     }
     
     .atribuição {
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
     }
     
