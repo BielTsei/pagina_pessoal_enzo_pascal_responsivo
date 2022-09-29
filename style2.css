@@ -820,9 +820,9 @@ nav {
 
     .foto {
         display:flex;
-        width: 650px;
+        width: 600px;
         position:absolute;
-        right: 0;
+        right: 55px;
         bottom: 0;
     }
 
@@ -993,7 +993,7 @@ nav {
 
     .text_habilidades {
         display: inline-block;
-        padding-bottom: 15px;
+        padding-bottom: 35px;
         box-sizing: border-box;
         font-size: 1.5em;
     }
@@ -1041,8 +1041,8 @@ nav {
         font-family: 'Montserrat-Regular';
         text-align: center;
         box-sizing: border-box;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
         font-size: 1.5em
     }
 
@@ -1050,8 +1050,8 @@ nav {
         font-family: 'Montserrat-Regular';
         text-align: center;
         box-sizing: border-box;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 25px;
+        padding-bottom: 25px;
         font-size: 1.5em;
 }
 
