@@ -1100,7 +1100,7 @@ nav {
     
 }*/
 
-@media (min-width: 720px) {
+/*@media (min-width: 720px) {
 
     .fundo {
         margin:0;
@@ -1426,9 +1426,9 @@ nav {
         text-align: center;
     }
     
-}
+}*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
 
     .fundo {
         margin:0;
@@ -1474,7 +1474,7 @@ nav {
         display:flex;
         width: 290px;
         position:absolute;
-        right: 125px;
+        right: 50px;
         bottom: 0; 
     }
 
@@ -1505,12 +1505,13 @@ nav {
 
     .title_sobre_mim {
         font-family: 'Montserrat-Medium';
-        font-size: 16px;
+        font-size: 24px;
         margin-top: 20px;
     }
 
     #sobre_mim {
         margin-bottom: 1vh;
+        margin-top: 25px;
     }
 
     .paragrafo_sobre_mim {
@@ -1519,9 +1520,10 @@ nav {
         width: auto;
         height: auto;
         color: #272727;
-        line-height: 1.7rem;
-        margin-top: 2vh;
-        margin-bottom: 3vh;
+        font-size: 18px;
+        line-height: 33px;
+        margin-top: 3vh;
+        margin-bottom: 5vh;
     }
     
     .barra_de_habilidades {
@@ -1748,7 +1750,7 @@ nav {
         text-align: center;
     }
     
-}*/
+}
 
 /*@keyframes navLinkFade {
     from {
