@@ -792,35 +792,35 @@ nav {
     }
 
     .ola {
-        font-size: 20px;
+        font-size: 30px;
         font-family: 'Montserrat-Regular';
         box-sizing: border-box;
         padding-top:25px;
     }
 
     .nome {
-        font-size: 38px;
+        font-size: 50px;
         font-family: 'Montserrat-Black';
         margin-top: 20px;
     }
 
     .qualificacoes {
-        font-size: 18px;
+        font-size: 28px;
         font-family: 'Montserrat-Regular';
         margin-top: 20px;
         letter-spacing: 2px;
     }
 
     .paragrafo {
-        font-size: 16px;
-        line-height:24px;
+        font-size: 24px;
+        line-height:35px;
         font-family: 'Montserrat-Regular';
         margin-top: 20px;
     }
 
     .foto {
         display:flex;
-        width: 250px;
+        width: 650px;
         position:absolute;
         right: 0;
         bottom: 0;
@@ -831,11 +831,11 @@ nav {
         background-color: #00a78e;
         border: 0px; 
         border-radius: 10px;
-        height: 50px;
-        padding-left: 30px;
-        padding-right: 30px;
+        height: 75px;
+        padding-left: 40px;
+        padding-right: 40px;
         color: white;
-        font-size: 16px;
+        font-size: 24px;
         letter-spacing: 1px;
         font-weight: 200;
         margin-top: 25px;
@@ -1094,7 +1094,7 @@ nav {
     
 }
 
-@media (min-width: 720px) {
+/*@media (min-width: 720px) {
 
     .fundo {
         margin:0;
@@ -1740,7 +1740,7 @@ nav {
         text-align: center;
     }
     
-}
+}*/
 
 /*@keyframes navLinkFade {
     from {
