@@ -780,7 +780,7 @@ nav {
     
 }
 
-@media (min-width: 425px) {
+/*@media (min-width: 425px) {
 
     .fundo {
         margin:0;
@@ -1102,7 +1102,7 @@ nav {
         text-align: center;
     }
     
-}
+}*/
 
 @media (max-width: 768px) and (min-width: 425px) {
 
@@ -1774,27 +1774,27 @@ nav {
     }
 
     .ola {
-        font-size: 1.7em;
+        font-size: 1.5em;
         font-family: 'Montserrat-Regular';
         box-sizing: border-box;
         padding-top:25px;
     }
 
     .nome {
-        font-size: 3.2em;
+        font-size: 3em;
         font-family: 'Montserrat-Black';
         margin-top: 20px;
     }
 
     .qualificacoes {
-        font-size: 1.7em;
+        font-size: 1.5em;
         font-family: 'Montserrat-Regular';
         margin-top: 20px;
         letter-spacing: 2px;
     }
 
     .paragrafo {
-        font-size: 1.5em;
+        font-size: 1.3em;
         line-height: 40px;
         font-family: 'Montserrat-Regular';
         margin-top: 20px;
@@ -1817,7 +1817,7 @@ nav {
         padding-left: 42px;
         padding-right: 42px;
         color: white;
-        font-size: 1.5em;
+        font-size: 1.3em;
         letter-spacing: 1px;
         font-weight: 200;
         margin-top: 25px;
@@ -1835,7 +1835,7 @@ nav {
 
     .title_sobre_mim {
         font-family: 'Montserrat-Medium';
-        font-size: 1.8em;
+        font-size: 1.5em;
         margin-top: 20px;
     }
 
@@ -1864,7 +1864,7 @@ nav {
         font-family: 'Montserrat-Regular';
         font-weight: 900;
         display: inline-block;
-        font-size: 1.8em;
+        font-size: 1.3em;
         color: #261447;
         margin-bottom: 15px;
     }
@@ -1874,7 +1874,7 @@ nav {
         font-family: 'Montserrat-Regular';
         width: 77vw;
         text-align: right;
-        font-size: 1.8em;
+        font-size: 1.3em;
         color: #272727;
     }
     
