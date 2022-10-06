@@ -43,7 +43,7 @@ nav {
           Mobile First 
   ==========================================*/
 
-/*@media (min-width: 320px) {
+@media (min-width: 320px) {
   .fundo {
     margin: 0;
     height: 92vh;
@@ -378,9 +378,9 @@ nav {
     text-align: center;
     padding-bottom: 40px;
   }
-}*/
+}
 
-/*@media (min-width: 375px) {
+@media (min-width: 375px) {
   .fundo {
     margin: 0;
     height: 92vh;
@@ -715,9 +715,9 @@ nav {
     text-align: center;
     padding-bottom: 40px;
   }
-}*/
+}
 
-/*@media (min-width: 425px) {
+@media (min-width: 425px) {
   .fundo {
     margin: 0;
     height: 92vh;
@@ -1052,9 +1052,9 @@ nav {
     text-align: center;
     padding-bottom: 40px;
   }
-}*/
+}
 
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   .fundo {
     margin: 0;
     height: 92vh;
@@ -1260,12 +1260,41 @@ nav {
     flex-direction: column;
   }
 
+  .check_sem_margin {
+    font-family: "Montserrat-Medium";
+    display: flex;
+    font-size: 25px;
+    color: #00a78e;
+    width: 30vw;
+    height: 260px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 5px rgb(196 196 196 / 80%);
+    margin-top: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 25px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
   .check:hover {
     color: white;
     background-color: #00a78e;
   }
 
   .check p {
+    font-family: "Montserrat-Regular";
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+    box-sizing: border-box;
+    padding: 5px 25px 5px 25px;
+  }
+
+  .check_sem_margin P {
     font-family: "Montserrat-Regular";
     font-size: 18px;
     color: black;
@@ -1388,9 +1417,9 @@ nav {
     font-size: 14px;
     text-align: center;
   }
-}*/
+}
 
-/*@media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .logo {
     font-size: 26px;
     text-transform: uppercase;
@@ -1570,13 +1599,11 @@ nav {
   .habilidades {
     font-family: "Montserrat";
     box-sizing: border-box;
-    margin-left: 12vw;
-    margin-right: 12vw;
   }
 
   .check {
     font-family: "Montserrat-Medium";
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1589,7 +1616,7 @@ nav {
     border-radius: 5px;
     box-shadow: rgb(196 196 196 / 80%) 0px 5px 15px 5px;
     margin-top: 35px;
-    margin-right: 55px;
+    /*margin-right: 55px;*/
     text-align: center;
     box-sizing: border-box;
     line-height: 25px;
@@ -1599,7 +1626,7 @@ nav {
 
   .check_sem_margin {
     font-family: "Montserrat-Medium";
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1754,9 +1781,9 @@ nav {
     font-size: 18px;
     text-align: center;
   }
-}*/
+}
 
-/*@media (min-width: 1440px) {
+@media (min-width: 1440px) {
   .logo {
     font-size: 26px;
     text-transform: uppercase;
@@ -2125,7 +2152,7 @@ nav {
     font-size: 18px;
     text-align: center;
   }
-}*/
+}
 
 @media (min-width: 2560px) {
   .logo {
