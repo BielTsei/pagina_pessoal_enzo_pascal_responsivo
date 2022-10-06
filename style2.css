@@ -678,8 +678,8 @@ nav {
     font-family: "Montserrat-Regular";
     text-align: center;
     box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     font-size: 18px;
     line-height: 30px;
   }
@@ -688,26 +688,26 @@ nav {
     font-family: "Montserrat-Regular";
     text-align: center;
     box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     font-size: 18px;
     line-height: 30px;
   }
 
   .imgs1 {
-    width: 30vw;
+    width: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
 
   .imgs2 {
-    width: 30vw;
+    width: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
 
   .imgs3 {
-    width: 30vw;
+    width: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
