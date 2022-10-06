@@ -2333,8 +2333,6 @@ nav {
   .habilidades {
     font-family: "Montserrat";
     box-sizing: border-box;
-    margin-left: 12vw;
-    margin-right: 12vw;
   }
 
   .check {
@@ -2434,8 +2432,6 @@ nav {
     display: inline-flex;
     width: 50vw;
     height: 780px;
-    margin-right: 13px;
-    margin-left: 15vw;
     box-sizing: border-box;
     padding: 30px;
     border-radius: 10px;
@@ -2503,6 +2499,7 @@ nav {
     height: 210px;
     box-sizing: border-box;
     padding: 25px;
+    margin-top: 50px;
   }
 
   .title_contato {
