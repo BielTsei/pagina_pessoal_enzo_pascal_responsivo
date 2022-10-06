@@ -2323,11 +2323,11 @@ nav {
     font-size: 60px;
     text-align: center;
     color: #272727;
+    margin-bottom: 30px;
   }
 
   #container_habilidades {
     background: #f9f9f9;
-    padding-bottom: 35px;
   }
 
   .habilidades {
@@ -2372,14 +2372,13 @@ nav {
     background-color: rgb(249, 249, 249);
     border-radius: 5px;
     box-shadow: rgb(196 196 196 / 80%) 0px 5px 15px 5px;
-    margin-top: 75px;
+    margin-top: 35px;
     text-align: center;
     box-sizing: border-box;
     line-height: 25px;
     padding-left: 20px;
     padding-right: 20px;
   }
-
   .check:hover {
     color: white;
     background-color: #00a78e;
