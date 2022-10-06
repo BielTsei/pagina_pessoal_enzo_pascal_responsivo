@@ -717,7 +717,7 @@ nav {
   }
 }*/
 
-/*@media (min-width: 425px) {
+@media (min-width: 425px) {
   .fundo {
     margin: 0;
     height: 92vh;
@@ -732,7 +732,7 @@ nav {
   }
 
   .ola {
-    font-size: 30px;
+    font-size: 38px;
     font-family: "Montserrat-Regular";
     box-sizing: border-box;
     padding-top: 70px;
@@ -741,29 +741,29 @@ nav {
   .nome {
     font-size: 58px;
     font-family: "Montserrat-Black";
-    margin-top: 35px;
+    margin-top: 20px;
     color: #261447;
   }
 
   .qualificacoes {
-    font-size: 30px;
+    font-size: 34px;
     font-family: "Montserrat-Regular";
     margin-top: 30px;
     letter-spacing: 2px;
   }
 
   .paragrafo {
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 48px;
     font-family: "Montserrat-Regular";
     margin-top: 30px;
   }
 
   .foto {
     display: flex;
-    width: 560px;
+    width: 500px;
     position: absolute;
-    right: 5px;
+    right: 15px;
     bottom: 0;
   }
 
@@ -772,11 +772,11 @@ nav {
     background-color: #00a78e;
     border: 0px;
     border-radius: 10px;
-    height: 90px;
+    height: 110px;
     padding-left: 57px;
     padding-right: 57px;
     color: white;
-    font-size: 28px;
+    font-size: 34px;
     letter-spacing: 1px;
     font-weight: 200;
     margin-top: 35px;
@@ -812,7 +812,7 @@ nav {
     width: auto;
     height: auto;
     color: #272727;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 40px;
     margin-top: 2vh;
     margin-bottom: 3vh;
@@ -823,20 +823,20 @@ nav {
   }
 
   .title_barra {
-    font-family: "Montserrat-Black";
+    font-family: "Montserrat-Regular";
     font-weight: 900;
     display: inline-block;
-    font-size: 28px;
+    font-size: 30px;
     color: #261447;
     margin-bottom: 15px;
   }
 
   .porcentagem {
     display: inline-block;
-    font-family: "Montserrat-Black";
+    font-family: "Montserrat-Regular";
     width: 77vw;
     text-align: right;
-    font-size: 28px;
+    font-size: 30px;
     color: #261447;
   }
 
@@ -875,13 +875,13 @@ nav {
   .icons {
     display: flex;
     justify-content: space-between;
-    margin: 30px auto;
+    margin: 70px auto;
     filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.418));
   }
 
   .title_habilidades {
     font-family: "Montserrat-Medium";
-    font-size: 48px;
+    font-size: 52px;
     text-align: center;
     color: #261447;
   }
@@ -908,8 +908,8 @@ nav {
     display: flex;
     font-size: 25px;
     color: #00a78e;
-    width: 50vw;
-    height: 260px;
+    width: 75vw;
+    height: 290px;
     background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 0px 5px 15px 5px rgb(196 196 196 / 80%);
@@ -930,19 +930,20 @@ nav {
 
   .check p {
     font-family: "Montserrat-Regular";
-    font-size: 22px;
+    font-size: 28px;
     color: black;
     text-align: center;
-    line-height: 25px;
+    line-height: 35px;
     box-sizing: border-box;
-    padding: 5px 10px 5px 10px;
+    padding: 25px 60px 25px 60px;
   }
 
   .text_habilidades {
     display: inline-block;
-    padding-bottom: 15px;
+    padding-bottom: 18px;
+    padding-top: 18px;
     box-sizing: border-box;
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .title_projetos {
@@ -950,7 +951,7 @@ nav {
     padding-top: 10px;
     padding-bottom: 30px;
     text-align: center;
-    font-size: 48px;
+    font-size: 52px;
     color: #261447;
   }
 
@@ -966,7 +967,7 @@ nav {
   .box_projetos {
     display: flex;
     width: 70vw;
-    height: 440px;
+    height: 580px;
     box-sizing: border-box;
     padding: 30px;
     border-radius: 10px;
@@ -985,16 +986,16 @@ nav {
     padding-top: 25px;
     font-family: "Montserrat-Medium";
     text-align: center;
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .text_projetos1 {
     font-family: "Montserrat-Regular";
     text-align: center;
     box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
     line-height: 30px;
   }
 
@@ -1002,26 +1003,26 @@ nav {
     font-family: "Montserrat-Regular";
     text-align: center;
     box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
     line-height: 30px;
   }
 
   .imgs1 {
-    width: 30vw;
+    width: 430px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
 
   .imgs2 {
-    width: 30vw;
+    width: 430px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
 
   .imgs3 {
-    width: 30vw;
+    width: 430px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
@@ -1038,12 +1039,12 @@ nav {
 
   .title_contato {
     margin-bottom: 25px;
-    font-size: 36px;
+    font-size: 38px;
   }
 
   #contato {
     margin: 15px 0px 25px 0px;
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .atribuição {
@@ -1053,7 +1054,7 @@ nav {
   }
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .fundo {
     margin: 0;
     height: 92vh;
