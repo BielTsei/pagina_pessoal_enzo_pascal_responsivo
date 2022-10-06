@@ -1390,9 +1390,9 @@ nav {
   }
 }*/
 
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
   .logo {
-    font-size: 28px;
+    font-size: 26px;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-family: "Montserrat-Black";
@@ -1564,7 +1564,6 @@ nav {
 
   #container_habilidades {
     background: #f9f9f9;
-    padding-top: 35px;
     padding-bottom: 35px;
   }
 
@@ -1755,9 +1754,16 @@ nav {
     font-size: 18px;
     text-align: center;
   }
-}
+}*/
 
-/*@media (min-width: 1440px) {
+@media (min-width: 1440px) {
+  .logo {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Montserrat-Black";
+  }
+
   .fundo {
     margin: 0;
     height: 92vh;
@@ -1772,37 +1778,37 @@ nav {
   }
 
   .ola {
-    font-size: 1.5em;
+    font-size: 26px;
     font-family: "Montserrat-Regular";
     box-sizing: border-box;
     padding-top: 25px;
   }
 
   .nome {
-    font-size: 3em;
+    font-size: 44px;
     font-family: "Montserrat-Black";
     margin-top: 20px;
   }
 
   .qualificacoes {
-    font-size: 1.5em;
+    font-size: 26px;
     font-family: "Montserrat-Regular";
     margin-top: 20px;
     letter-spacing: 2px;
   }
 
   .paragrafo {
-    font-size: 1.3em;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 35px;
     font-family: "Montserrat-Regular";
     margin-top: 20px;
   }
 
   .foto {
     display: flex;
-    width: 340px;
+    width: 290px;
     position: absolute;
-    right: 90px;
+    right: 50px;
     bottom: 0;
   }
 
@@ -1811,11 +1817,11 @@ nav {
     background-color: #00a78e;
     border: 0px;
     border-radius: 10px;
-    height: 70px;
-    padding-left: 42px;
-    padding-right: 42px;
+    height: 75px;
+    padding-left: 45px;
+    padding-right: 45px;
     color: white;
-    font-size: 1.3em;
+    font-size: 26px;
     letter-spacing: 1px;
     font-weight: 200;
     margin-top: 25px;
@@ -1833,13 +1839,18 @@ nav {
 
   .title_sobre_mim {
     font-family: "Montserrat-Medium";
-    font-size: 1.5em;
+    font-size: 24px;
     margin-top: 20px;
   }
 
   #sobre_mim {
-    margin-bottom: 2.5vh;
+    margin-bottom: 1vh;
     margin-top: 25px;
+    font-size: 26px;
+  }
+
+  .title_sobre_mim h2 {
+    font-size: 36px;
   }
 
   .paragrafo_sobre_mim {
@@ -1848,8 +1859,8 @@ nav {
     width: auto;
     height: auto;
     color: #272727;
-    font-size: 1.5em;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 35px;
     margin-top: 3vh;
     margin-bottom: 5vh;
   }
@@ -1862,7 +1873,7 @@ nav {
     font-family: "Montserrat-Regular";
     font-weight: 900;
     display: inline-block;
-    font-size: 1.3em;
+    font-size: 24px;
     color: #261447;
     margin-bottom: 15px;
   }
@@ -1872,88 +1883,109 @@ nav {
     font-family: "Montserrat-Regular";
     width: 77vw;
     text-align: right;
-    font-size: 1.3em;
+    font-size: 24px;
     color: #272727;
   }
 
   .barra {
     width: 70vw;
-    height: 17px;
+    height: 16px;
     border-radius: 10px;
     background: linear-gradient(to right, #00a78e 90%, #d7d7d7 10%);
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
   }
 
   .barra2 {
     width: 70vw;
-    height: 17px;
+    height: 16px;
     border-radius: 10px;
     background: linear-gradient(to right, #00a78e 65%, #d7d7d7 10%);
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
   }
 
   .barra3 {
     width: 70vw;
-    height: 17px;
+    height: 16px;
     border-radius: 10px;
     background: linear-gradient(to right, #00a78e 85%, #d7d7d7 10%);
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
   }
 
   .barra4 {
     width: 70vw;
-    height: 17px;
+    height: 16px;
     border-radius: 10px;
     background: linear-gradient(to right, #00a78e 75%, #d7d7d7 10%);
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
   }
 
   .icons {
     display: flex;
     justify-content: space-between;
-    margin: 50px auto;
+    margin: 60px auto;
     filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.418));
   }
 
   .title_habilidades {
     font-family: "Montserrat-Medium";
-    font-size: 2.8em;
+    font-size: 42px;
     text-align: center;
     color: #272727;
   }
 
   #container_habilidades {
     background: #f9f9f9;
-    padding-top: 35px;
     padding-bottom: 35px;
   }
 
   .habilidades {
     font-family: "Montserrat";
     box-sizing: border-box;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
   }
 
   .check {
-    font-family: Montserrat-Medium;
+    font-family: "Montserrat-Medium";
     display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     font-size: 25px;
     color: rgb(0, 167, 142);
     width: 35vw;
-    height: 245px;
+    height: 270px;
     background-color: rgb(249, 249, 249);
     border-radius: 5px;
     box-shadow: rgb(196 196 196 / 80%) 0px 5px 15px 5px;
     margin-top: 35px;
-    margin-left: 3vw;
+    margin-right: 55px;
     text-align: center;
     box-sizing: border-box;
     line-height: 25px;
-    align-items: center;
-    place-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .check_sem_margin {
+    font-family: "Montserrat-Medium";
+    display: inline-flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    font-size: 25px;
+    color: rgb(0, 167, 142);
+    width: 35vw;
+    height: 270px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    box-shadow: rgb(196 196 196 / 80%) 0px 5px 15px 5px;
+    margin-top: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 25px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1963,9 +1995,19 @@ nav {
     background-color: #00a78e;
   }
 
+  .check_sem_margin p {
+    font-family: "Montserrat-Regular";
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .check p {
     font-family: "Montserrat-Regular";
-    font-size: 16px;
+    font-size: 24px;
     color: black;
     text-align: center;
     padding-bottom: 15px;
@@ -1977,6 +2019,7 @@ nav {
     display: inline-block;
     padding-bottom: 20px;
     box-sizing: border-box;
+    font-size: 30px;
   }
 
   .title_projetos {
@@ -1984,7 +2027,7 @@ nav {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 42px;
   }
 
   .box {
@@ -2006,6 +2049,7 @@ nav {
     margin-bottom: 35px;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
   }
 
   .box_projetos:hover {
@@ -2016,6 +2060,7 @@ nav {
     padding-top: 25px;
     font-family: "Montserrat-Medium";
     text-align: center;
+    font-size: 30px;
   }
 
   .text_projetos1 {
@@ -2024,7 +2069,8 @@ nav {
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .text_projetos {
@@ -2033,7 +2079,8 @@ nav {
     box-sizing: border-box;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 18px;
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .imgs1 {
@@ -2066,12 +2113,12 @@ nav {
 
   .title_contato {
     margin-bottom: 25px;
-    font-size: 2em;
+    font-size: 34px;
   }
 
   #contato {
     margin: 15px 0px 25px 0px;
-    font-size: 20px;
+    font-size: 26px;
   }
 
   .atribuição {
@@ -2080,7 +2127,7 @@ nav {
   }
 }
 
-@media (min-width: 2560px) {
+/*@media (min-width: 2560px) {
   .fundo {
     margin: 0;
     height: 92vh;
