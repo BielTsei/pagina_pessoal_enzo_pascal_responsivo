@@ -25,7 +25,7 @@ a.hover {
 }
 
 .logo {
-  font-size: 40px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-family: "Montserrat-Black";
@@ -364,19 +364,16 @@ nav {
   }
 
   .title_contato {
-    margin-bottom: 25px;
     font-size: 38px;
   }
 
   #contato {
-    margin: 15px 0px 25px 0px;
     font-size: 28px;
   }
 
   .atribuição {
     font-size: 20px;
     text-align: center;
-    padding-bottom: 40px;
   }
 }
 
@@ -701,19 +698,16 @@ nav {
   }
 
   .title_contato {
-    margin-bottom: 25px;
     font-size: 38px;
   }
 
   #contato {
-    margin: 15px 0px 25px 0px;
     font-size: 28px;
   }
 
   .atribuição {
     font-size: 20px;
     text-align: center;
-    padding-bottom: 40px;
   }
 }
 
@@ -1038,19 +1032,16 @@ nav {
   }
 
   .title_contato {
-    margin-bottom: 25px;
     font-size: 38px;
   }
 
   #contato {
-    margin: 15px 0px 25px 0px;
     font-size: 28px;
   }
 
   .atribuição {
     font-size: 20px;
     text-align: center;
-    padding-bottom: 40px;
   }
 }
 
@@ -1420,13 +1411,6 @@ nav {
 }
 
 @media (min-width: 1024px) {
-  .logo {
-    font-size: 26px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-family: "Montserrat-Black";
-  }
-
   .fundo {
     margin: 0;
     height: 92vh;
@@ -1441,7 +1425,7 @@ nav {
   }
 
   .ola {
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Montserrat-Regular";
     box-sizing: border-box;
     padding-top: 25px;
@@ -1450,28 +1434,28 @@ nav {
   .nome {
     font-size: 38px;
     font-family: "Montserrat-Black";
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .qualificacoes {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Montserrat-Regular";
-    margin-top: 20px;
+    margin-top: 10px;
     letter-spacing: 2px;
   }
 
   .paragrafo {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     font-family: "Montserrat-Regular";
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .foto {
     display: flex;
-    width: 290px;
+    width: 380px;
     position: absolute;
-    right: 50px;
+    right: 90px;
     bottom: 0;
   }
 
@@ -1509,6 +1493,11 @@ nav {
   #sobre_mim {
     margin-bottom: 1vh;
     margin-top: 25px;
+    font-size: 18px;
+  }
+
+  .title_sobre_mim h2 {
+    font-size: 28px;
   }
 
   .paragrafo_sobre_mim {
@@ -1517,8 +1506,8 @@ nav {
     width: auto;
     height: auto;
     color: #272727;
-    font-size: 18px;
-    line-height: 33px;
+    font-size: 14px;
+    line-height: 25px;
     margin-top: 3vh;
     margin-bottom: 5vh;
   }
@@ -1531,7 +1520,7 @@ nav {
     font-family: "Montserrat-Regular";
     font-weight: 900;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 18px;
     color: #261447;
     margin-bottom: 15px;
   }
@@ -1541,7 +1530,7 @@ nav {
     font-family: "Montserrat-Regular";
     width: 77vw;
     text-align: right;
-    font-size: 1.2em;
+    font-size: 18px;
     color: #272727;
   }
 
@@ -1586,7 +1575,7 @@ nav {
 
   .title_habilidades {
     font-family: "Montserrat-Medium";
-    font-size: 2.5em;
+    font-size: 28px;
     text-align: center;
     color: #272727;
   }
@@ -1611,7 +1600,7 @@ nav {
     font-size: 25px;
     color: rgb(0, 167, 142);
     width: 35vw;
-    height: 245px;
+    height: 230px;
     background-color: rgb(249, 249, 249);
     border-radius: 5px;
     box-shadow: rgb(196 196 196 / 80%) 0px 5px 15px 5px;
@@ -1634,7 +1623,7 @@ nav {
     font-size: 25px;
     color: rgb(0, 167, 142);
     width: 35vw;
-    height: 245px;
+    height: 230px;
     background-color: rgb(249, 249, 249);
     border-radius: 5px;
     box-shadow: rgb(196 196 196 / 80%) 0px 5px 15px 5px;
@@ -1651,9 +1640,14 @@ nav {
     background-color: #00a78e;
   }
 
+  .check_sem_margin:hover {
+    color: white;
+    background-color: #00a78e;
+  }
+
   .check_sem_margin p {
     font-family: "Montserrat-Regular";
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     text-align: center;
     padding-bottom: 15px;
@@ -1663,7 +1657,7 @@ nav {
 
   .check p {
     font-family: "Montserrat-Regular";
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     text-align: center;
     padding-bottom: 15px;
@@ -1675,7 +1669,7 @@ nav {
     display: inline-block;
     padding-bottom: 20px;
     box-sizing: border-box;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .title_projetos {
@@ -1683,7 +1677,7 @@ nav {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 28px;
   }
 
   .box {
@@ -1695,7 +1689,7 @@ nav {
   .box_projetos {
     display: inline-flex;
     width: 50vw;
-    height: 476px;
+    height: 350px;
     box-sizing: border-box;
     padding: 30px;
     border-radius: 10px;
@@ -1714,7 +1708,7 @@ nav {
     padding-top: 25px;
     font-family: "Montserrat-Medium";
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .text_projetos1 {
@@ -1723,7 +1717,7 @@ nav {
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
   }
 
@@ -1733,7 +1727,7 @@ nav {
     box-sizing: border-box;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
   }
 
@@ -1763,32 +1757,29 @@ nav {
     height: 210px;
     box-sizing: border-box;
     padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 
   .title_contato {
-    margin-bottom: 25px;
-    font-size: 2em;
+    font-size: 16px;
   }
 
   #contato {
-    margin: 15px 0px 25px 0px;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .atribuição {
-    font-size: 18px;
+    font-size: 10px;
     text-align: center;
   }
 }
 
 @media (min-width: 1440px) {
-  .logo {
-    font-size: 26px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-family: "Montserrat-Black";
-  }
-
   .fundo {
     margin: 0;
     height: 92vh;
@@ -1803,37 +1794,37 @@ nav {
   }
 
   .ola {
-    font-size: 26px;
+    font-size: 16px;
     font-family: "Montserrat-Regular";
     box-sizing: border-box;
     padding-top: 25px;
   }
 
   .nome {
-    font-size: 44px;
+    font-size: 38px;
     font-family: "Montserrat-Black";
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .qualificacoes {
-    font-size: 26px;
+    font-size: 16px;
     font-family: "Montserrat-Regular";
-    margin-top: 20px;
+    margin-top: 10px;
     letter-spacing: 2px;
   }
 
   .paragrafo {
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 14px;
+    line-height: 24px;
     font-family: "Montserrat-Regular";
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .foto {
     display: flex;
-    width: 290px;
+    width: 380px;
     position: absolute;
-    right: 50px;
+    right: 90px;
     bottom: 0;
   }
 
@@ -1842,11 +1833,11 @@ nav {
     background-color: #00a78e;
     border: 0px;
     border-radius: 10px;
-    height: 75px;
-    padding-left: 45px;
-    padding-right: 45px;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: white;
-    font-size: 26px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 200;
     margin-top: 25px;
@@ -1871,11 +1862,11 @@ nav {
   #sobre_mim {
     margin-bottom: 1vh;
     margin-top: 25px;
-    font-size: 26px;
+    font-size: 18px;
   }
 
   .title_sobre_mim h2 {
-    font-size: 36px;
+    font-size: 28px;
   }
 
   .paragrafo_sobre_mim {
@@ -1884,8 +1875,8 @@ nav {
     width: auto;
     height: auto;
     color: #272727;
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 14px;
+    line-height: 25px;
     margin-top: 3vh;
     margin-bottom: 5vh;
   }
@@ -1898,7 +1889,7 @@ nav {
     font-family: "Montserrat-Regular";
     font-weight: 900;
     display: inline-block;
-    font-size: 24px;
+    font-size: 18px;
     color: #261447;
     margin-bottom: 15px;
   }
@@ -1908,7 +1899,7 @@ nav {
     font-family: "Montserrat-Regular";
     width: 77vw;
     text-align: right;
-    font-size: 24px;
+    font-size: 18px;
     color: #272727;
   }
 
@@ -1953,7 +1944,7 @@ nav {
 
   .title_habilidades {
     font-family: "Montserrat-Medium";
-    font-size: 42px;
+    font-size: 28px;
     text-align: center;
     color: #272727;
   }
@@ -1970,7 +1961,7 @@ nav {
 
   .check {
     font-family: "Montserrat-Medium";
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1978,12 +1969,12 @@ nav {
     font-size: 25px;
     color: rgb(0, 167, 142);
     width: 35vw;
-    height: 270px;
+    height: 230px;
     background-color: rgb(249, 249, 249);
     border-radius: 5px;
     box-shadow: rgb(196 196 196 / 80%) 0px 5px 15px 5px;
     margin-top: 35px;
-    margin-right: 55px;
+    /*margin-right: 55px;*/
     text-align: center;
     box-sizing: border-box;
     line-height: 25px;
@@ -1993,7 +1984,7 @@ nav {
 
   .check_sem_margin {
     font-family: "Montserrat-Medium";
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -2001,7 +1992,7 @@ nav {
     font-size: 25px;
     color: rgb(0, 167, 142);
     width: 35vw;
-    height: 270px;
+    height: 230px;
     background-color: rgb(249, 249, 249);
     border-radius: 5px;
     box-shadow: rgb(196 196 196 / 80%) 0px 5px 15px 5px;
@@ -2018,9 +2009,14 @@ nav {
     background-color: #00a78e;
   }
 
+  .check_sem_margin:hover {
+    color: white;
+    background-color: #00a78e;
+  }
+
   .check_sem_margin p {
     font-family: "Montserrat-Regular";
-    font-size: 24px;
+    font-size: 14px;
     color: black;
     text-align: center;
     padding-bottom: 15px;
@@ -2030,7 +2026,7 @@ nav {
 
   .check p {
     font-family: "Montserrat-Regular";
-    font-size: 24px;
+    font-size: 14px;
     color: black;
     text-align: center;
     padding-bottom: 15px;
@@ -2042,7 +2038,7 @@ nav {
     display: inline-block;
     padding-bottom: 20px;
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .title_projetos {
@@ -2050,7 +2046,7 @@ nav {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    font-size: 42px;
+    font-size: 28px;
   }
 
   .box {
@@ -2062,7 +2058,7 @@ nav {
   .box_projetos {
     display: inline-flex;
     width: 50vw;
-    height: 476px;
+    height: 350px;
     box-sizing: border-box;
     padding: 30px;
     border-radius: 10px;
@@ -2081,7 +2077,7 @@ nav {
     padding-top: 25px;
     font-family: "Montserrat-Medium";
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .text_projetos1 {
@@ -2090,8 +2086,8 @@ nav {
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 25px;
   }
 
   .text_projetos {
@@ -2100,8 +2096,8 @@ nav {
     box-sizing: border-box;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 25px;
   }
 
   .imgs1 {
@@ -2130,20 +2126,24 @@ nav {
     height: 210px;
     box-sizing: border-box;
     padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 
   .title_contato {
-    margin-bottom: 25px;
-    font-size: 34px;
+    font-size: 16px;
   }
 
   #contato {
-    margin: 0px 0px 15px 0px;
-    font-size: 26px;
+    font-size: 14px;
   }
 
   .atribuição {
-    font-size: 18px;
+    font-size: 10px;
     text-align: center;
   }
 }
@@ -2380,6 +2380,11 @@ nav {
     padding-right: 20px;
   }
   .check:hover {
+    color: white;
+    background-color: #00a78e;
+  }
+
+  .check_sem_margin:hover {
     color: white;
     background-color: #00a78e;
   }
