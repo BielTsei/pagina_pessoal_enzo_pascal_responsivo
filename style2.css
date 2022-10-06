@@ -1551,7 +1551,7 @@ nav {
   .icons {
     display: flex;
     justify-content: space-between;
-    margin: 50px auto;
+    margin: 60px auto;
     filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.418));
   }
 
@@ -1571,8 +1571,8 @@ nav {
   .habilidades {
     font-family: "Montserrat";
     box-sizing: border-box;
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
   }
 
   .check {
@@ -1584,13 +1584,13 @@ nav {
     flex-wrap: wrap;
     font-size: 25px;
     color: rgb(0, 167, 142);
-    width: 38vw;
+    width: 35vw;
     height: 245px;
     background-color: rgb(249, 249, 249);
     border-radius: 5px;
     box-shadow: rgb(196 196 196 / 80%) 0px 5px 15px 5px;
     margin-top: 35px;
-    margin-right: 75px;
+    margin-right: 55px;
     text-align: center;
     box-sizing: border-box;
     line-height: 25px;
@@ -1607,7 +1607,7 @@ nav {
     flex-wrap: wrap;
     font-size: 25px;
     color: rgb(0, 167, 142);
-    width: 38vw;
+    width: 35vw;
     height: 245px;
     background-color: rgb(249, 249, 249);
     border-radius: 5px;
@@ -1649,6 +1649,7 @@ nav {
     display: inline-block;
     padding-bottom: 20px;
     box-sizing: border-box;
+    font-size: 24px;
   }
 
   .title_projetos {
@@ -1689,6 +1690,7 @@ nav {
     padding-top: 25px;
     font-family: "Montserrat-Medium";
     text-align: center;
+    font-size: 24px;
   }
 
   .text_projetos1 {
@@ -1697,7 +1699,8 @@ nav {
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 25px;
   }
 
   .text_projetos {
@@ -1706,7 +1709,8 @@ nav {
     box-sizing: border-box;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 25px;
   }
 
   .imgs1 {
