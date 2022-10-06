@@ -1,241 +1,374 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style2.css">
-        <link rel="short icon" href="./imgs/web-design.png">
-        <title>Enzo Pascal</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="short icon" href="./imgs/web-design.png" />
+    <title>Enzo Pascal</title>
+  </head>
 
-    <body>
-        <!-- =============================================
+  <body>
+    <!-- =============================================
                         Cabeçalho 
         ============================================= -->
-        <header> 
-            <nav class="menu_trigger">
-                <!--<img class="img_logo" src="./imgs/logo_2.png" alt="Logo">-->
-                <a class="logo" href="/">FreeLancer</a>
-                <div class="mobile_menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-                <ul class="nav_list">
-                    <li> <a href="/"> &lt; Home</a></li>
-                    <li> <a href="/"> Sobre mim</a></li>
-                    <li> <a href="/"> Habilidades</a></li>
-                    <li> <a href="/"> Projetos</a></li>
-                    <li> <a href="/"> Contato /&gt</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+      <nav class="menu_trigger">
+        <!--<img class="img_logo" src="./imgs/logo_2.png" alt="Logo">-->
+        <a class="logo" href="/">FreeLancer</a>
+        <!--<div class="mobile_menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav_list">
+          <li><a href="/"> &lt; Home</a></li>
+          <li><a href="/"> Sobre mim</a></li>
+          <li><a href="/"> Habilidades</a></li>
+          <li><a href="/"> Projetos</a></li>
+          <li><a href="/"> Contato /&gt</a></li>
+        </ul>-->
+      </nav>
+    </header>
 
-        <script src="mobile_navbar.js"></script>
+    <script src="mobile_navbar.js"></script>
 
-        <!-- ============================================= 
+    <!-- ============================================= 
                         Home 
         ============================================= -->
 
-        <section class="fundo">
-            <div class="container"> 
-                <p class="ola">Olá, sou o</p>
-                <h1 class="nome">Enzo Pascal</h1>
-                <p class="qualificacoes">Profissional UI/UX & Web Designer </p>
-                <p class="paragrafo">Especialista em Visual Design e Design Strategy. <br>Como profissional, meu foco é
-                criar experiências significativas para as pessoas.
-                </p>
-                <button class="button">Mais informações</button> 
-                <img class="foto" src="./imgs/hero.png" alt="Eu">
-            </div>
-        </section>
+    <section class="fundo">
+      <div class="container">
+        <p class="ola">Olá, sou o</p>
+        <h1 class="nome">Enzo Pascal</h1>
+        <p class="qualificacoes">Profissional UI/UX & Web Designer</p>
+        <p class="paragrafo">
+          Especialista em Visual Design e Design Strategy. <br />Como
+          profissional, meu foco é criar experiências significativas para as
+          pessoas.
+        </p>
+        <button class="button">Mais informações</button>
+        <img class="foto" src="./imgs/hero.png" alt="Eu" />
+      </div>
+    </section>
 
-        <!-- ============================================= 
+    <!-- ============================================= 
                         Sobre mim e barra de porcentagem  
         ============================================= -->
 
-        <section id="container_sobre_mim">
+    <section id="container_sobre_mim">
+      <div class="title_sobre_mim">
+        <h4 id="sobre_mim">Sobre mim</h4>
+        <h2>Porque me contratar?</h2>
+      </div>
 
-            <div class="title_sobre_mim"> 
-                <h4 id="sobre_mim">Sobre mim</h4>
-                <h2>Porque me contratar?</h2>
-            </div>
+      <p class="paragrafo_sobre_mim">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum unde
+        error voluptate fugit, consequuntur minima, repellendus at ipsum illo
+        nostrum nobis fuga quos sed tempore voluptates excepturi vel quisquam
+        omnis!
+      </p>
 
-            <p class="paragrafo_sobre_mim">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum unde error voluptate fugit, consequuntur minima, repellendus at ipsum illo nostrum nobis fuga quos sed tempore voluptates excepturi vel quisquam omnis!</p>
-
-        <div id="container_barras">
-
-            <div>
-            <p class="title_barra">HTML & CSS</p>
-            <div class="barra">
-                <p class="porcentagem">90%</p>
-            </div>
-            </div>
-
-            <div> 
-                <p class="title_barra">Figma</p>
-                <div class="barra2">
-                    <p class="porcentagem">65%</p>
-                </div>
-            </div>
-
-            <div> 
-                <p class="title_barra">UI Design</p>
-                <div class="barra3">
-                    <p class="porcentagem">85%</p>
-                </div>
-            </div>
-
-            <div> 
-                <p class="title_barra">Sketch</p>
-                <div class="barra4">
-                    <p class="porcentagem">75%</p>
-                </div>
-            </div>
+      <div id="container_barras">
+        <div>
+          <p class="title_barra">HTML & CSS</p>
+          <div class="barra">
+            <p class="porcentagem">90%</p>
+          </div>
         </div>
 
-            <div class="icons">
-                <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.125em;" width="80" height="80" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="#e44f26" d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30L5.902 27.201z"/><path fill="#f1662a" d="m16 27.858l8.17-2.265l1.922-21.532H16v23.797z"/><path fill="#ebebeb" d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16v-3.091zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004v-3.216z"/><path fill="#fff" d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83h-7.185zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83h-7.743z"/></svg>
+        <div>
+          <p class="title_barra">Figma</p>
+          <div class="barra2">
+            <p class="porcentagem">65%</p>
+          </div>
+        </div>
 
-                <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.125em;" width="80" height="80" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="#1572b6" d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30L5.902 27.201z"/><path fill="#33a9dc" d="m16 27.858l8.17-2.265l1.922-21.532H16v23.797z"/><path fill="#fff" d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759 8.518H16v-3.091z"/><path fill="#ebebeb" d="m16.019 21.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433 4.853l6.331 1.758l.015-.004v-3.216z"/><path fill="#fff" d="m19.827 16.151l-.372 4.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007h-3.101z"/><path fill="#ebebeb" d="M16.011 6.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829h7.743zM16 13.191v3.091h-3.399l-.062-.695l-.14-1.567l-.074-.829H16z"/></svg>
+        <div>
+          <p class="title_barra">UI Design</p>
+          <div class="barra3">
+            <p class="porcentagem">85%</p>
+          </div>
+        </div>
 
-                <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.125em;" width="53.34" height="80" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 384"><path fill="#0ACF83" d="M64 384c35.328 0 64-28.672 64-64v-64H64c-35.328 0-64 28.672-64 64s28.672 64 64 64Z"/><path fill="#A259FF" d="M0 192c0-35.328 28.672-64 64-64h64v128H64c-35.328 0-64-28.672-64-64Z"/><path fill="#F24E1E" d="M0 64C0 28.672 28.672 0 64 0h64v128H64C28.672 128 0 99.328 0 64Z"/><path fill="#FF7262" d="M128 0h64c35.328 0 64 28.672 64 64s-28.672 64-64 64h-64V0Z"/><path fill="#1ABCFE" d="M256 192c0 35.328-28.672 64-64 64s-64-28.672-64-64s28.672-64 64-64s64 28.672 64 64Z"/></svg>
+        <div>
+          <p class="title_barra">Sketch</p>
+          <div class="barra4">
+            <p class="porcentagem">75%</p>
+          </div>
+        </div>
+      </div>
 
-                <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.125em;" width="80" height="80" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><mask id="svgIDa"><path fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M8 7.282L19.556 4v12.718L8 20V7.282Zm0 18.393l11.556-3.282v12.718L8 38.393V25.675Zm16.889-4.599l11.555-2.854v22.924L24.89 44V21.076Z"/></mask><path fill="#7871aa" d="M0 0h48v48H0z" mask="url(#svgIDa)"/></svg>
+      <div class="icons">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          style="vertical-align: -0.125em"
+          width="80"
+          height="80"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 32 32"
+        >
+          <path
+            fill="#e44f26"
+            d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30L5.902 27.201z"
+          />
+          <path
+            fill="#f1662a"
+            d="m16 27.858l8.17-2.265l1.922-21.532H16v23.797z"
+          />
+          <path
+            fill="#ebebeb"
+            d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16v-3.091zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004v-3.216z"
+          />
+          <path
+            fill="#fff"
+            d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83h-7.185zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83h-7.743z"
+          />
+        </svg>
 
-                <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.125em;" width="80" height="80" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="#ff7754" d="m925.6 405.1l-203-253.7a6.5 6.5 0 0 0-5-2.4H306.4c-1.9 0-3.8.9-5 2.4l-203 253.7a6.5 6.5 0 0 0 .2 8.3l408.6 459.5c1.2 1.4 3 2.1 4.8 2.1c1.8 0 3.5-.8 4.8-2.1l408.6-459.5a6.5 6.5 0 0 0 .2-8.3zM645.2 206.4l34.4 133.9l-132.5-133.9h98.1zm8.2 178.5H370.6L512 242l141.4 142.9zM378.8 206.4h98.1L344.3 340.3l34.5-133.9zm-53.4 7l-44.1 171.5h-93.1l137.2-171.5zM194.6 434.9H289l125.8 247.7l-220.2-247.7zM512 763.4L345.1 434.9h333.7L512 763.4zm97.1-80.8L735 434.9h94.4L609.1 682.6zm133.6-297.7l-44.1-171.5l137.2 171.5h-93.1z"/></svg>
-            </div>
-        </section>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          style="vertical-align: -0.125em"
+          width="80"
+          height="80"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 32 32"
+        >
+          <path
+            fill="#1572b6"
+            d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30L5.902 27.201z"
+          />
+          <path
+            fill="#33a9dc"
+            d="m16 27.858l8.17-2.265l1.922-21.532H16v23.797z"
+          />
+          <path
+            fill="#fff"
+            d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759 8.518H16v-3.091z"
+          />
+          <path
+            fill="#ebebeb"
+            d="m16.019 21.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433 4.853l6.331 1.758l.015-.004v-3.216z"
+          />
+          <path
+            fill="#fff"
+            d="m19.827 16.151l-.372 4.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007h-3.101z"
+          />
+          <path
+            fill="#ebebeb"
+            d="M16.011 6.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829h7.743zM16 13.191v3.091h-3.399l-.062-.695l-.14-1.567l-.074-.829H16z"
+          />
+        </svg>
 
-        <!-- ============================================= 
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          style="vertical-align: -0.125em"
+          width="53.34"
+          height="80"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 256 384"
+        >
+          <path
+            fill="#0ACF83"
+            d="M64 384c35.328 0 64-28.672 64-64v-64H64c-35.328 0-64 28.672-64 64s28.672 64 64 64Z"
+          />
+          <path
+            fill="#A259FF"
+            d="M0 192c0-35.328 28.672-64 64-64h64v128H64c-35.328 0-64-28.672-64-64Z"
+          />
+          <path
+            fill="#F24E1E"
+            d="M0 64C0 28.672 28.672 0 64 0h64v128H64C28.672 128 0 99.328 0 64Z"
+          />
+          <path
+            fill="#FF7262"
+            d="M128 0h64c35.328 0 64 28.672 64 64s-28.672 64-64 64h-64V0Z"
+          />
+          <path
+            fill="#1ABCFE"
+            d="M256 192c0 35.328-28.672 64-64 64s-64-28.672-64-64s28.672-64 64-64s64 28.672 64 64Z"
+          />
+        </svg>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          style="vertical-align: -0.125em"
+          width="80"
+          height="80"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 48 48"
+        >
+          <mask id="svgIDa">
+            <path
+              fill="#fff"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              d="M8 7.282L19.556 4v12.718L8 20V7.282Zm0 18.393l11.556-3.282v12.718L8 38.393V25.675Zm16.889-4.599l11.555-2.854v22.924L24.89 44V21.076Z"
+            />
+          </mask>
+          <path fill="#7871aa" d="M0 0h48v48H0z" mask="url(#svgIDa)" />
+        </svg>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          style="vertical-align: -0.125em"
+          width="80"
+          height="80"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            fill="#ff7754"
+            d="m925.6 405.1l-203-253.7a6.5 6.5 0 0 0-5-2.4H306.4c-1.9 0-3.8.9-5 2.4l-203 253.7a6.5 6.5 0 0 0 .2 8.3l408.6 459.5c1.2 1.4 3 2.1 4.8 2.1c1.8 0 3.5-.8 4.8-2.1l408.6-459.5a6.5 6.5 0 0 0 .2-8.3zM645.2 206.4l34.4 133.9l-132.5-133.9h98.1zm8.2 178.5H370.6L512 242l141.4 142.9zM378.8 206.4h98.1L344.3 340.3l34.5-133.9zm-53.4 7l-44.1 171.5h-93.1l137.2-171.5zM194.6 434.9H289l125.8 247.7l-220.2-247.7zM512 763.4L345.1 434.9h333.7L512 763.4zm97.1-80.8L735 434.9h94.4L609.1 682.6zm133.6-297.7l-44.1-171.5l137.2 171.5h-93.1z"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ============================================= 
                         Habilidades  
         ============================================= -->
 
-        <section id="container_habilidades">
-            <h2 class="title_habilidades">Habilidades</h2>
+    <section id="container_habilidades">
+      <h2 class="title_habilidades">Habilidades</h2>
 
-            <div class="habilidades">
+      <div class="habilidades">
+        <div class="check">
+          <h4 class="text_habilidades">UX Strategy</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            voluptatem eligendi, excepturi illo exercitationem omnis unde
+            aperiam.
+          </p>
+        </div>
 
-                <div class="check">
-                    <h4 class="text_habilidades">
-                        UX Strategy
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptatem eligendi, excepturi illo exercitationem omnis unde aperiam.
-                    </p>
-                </div>
+        <div class="check">
+          <h4 class="text_habilidades">UX Writer</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            voluptatem eligendi, excepturi illo exercitationem omnis unde
+            aperiam.
+          </p>
+        </div>
 
-                <div class="check">
-                    <h4 class="text_habilidades">
-                        UX Writer
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptatem eligendi, excepturi illo exercitationem omnis unde aperiam.
-                    </p>
-                </div>
+        <div class="check">
+          <h4 class="text_habilidades">UI Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            voluptatem eligendi, excepturi illo exercitationem omnis unde
+            aperiam.
+          </p>
+        </div>
 
-                <div class="check">                    
-                    <h4 class="text_habilidades">
-                        UI Design
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptatem eligendi, excepturi illo exercitationem omnis unde aperiam.
-                    </p>
-                </div>
+        <div class="check">
+          <h4 class="text_habilidades">Product Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            voluptatem eligendi, excepturi illo exercitationem omnis unde
+            aperiam.
+          </p>
+        </div>
 
-                <div class="check">                    
-                    <h4 class="text_habilidades">
-                        Product Design
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptatem eligendi, excepturi illo exercitationem omnis unde aperiam.
-                    </p>
-                </div>
+        <div class="check">
+          <h4 class="text_habilidades">Design Thinking</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            voluptatem eligendi, excepturi illo exercitationem omnis unde
+            aperiam.
+          </p>
+        </div>
+        <div class="check">
+          <h4 class="text_habilidades">Figma</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            voluptatem eligendi, excepturi illo exercitationem omnis unde
+            aperiam.
+          </p>
+        </div>
+        <div class="check">
+          <h4 class="text_habilidades">Sketch</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            voluptatem eligendi, excepturi illo exercitationem omnis unde
+            aperiam.
+          </p>
+        </div>
+        <div class="check">
+          <h4 class="text_habilidades">HTML & CSS</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            voluptatem eligendi, excepturi illo exercitationem omnis unde
+            aperiam.
+          </p>
+        </div>
+      </div>
+    </section>
 
-                <div class="check">                    
-                    <h4 class="text_habilidades">
-                        Design Thinking
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptatem eligendi, excepturi illo exercitationem omnis unde aperiam.
-                    </p>
-                </div>
-                <div class="check">                    
-                    <h4 class="text_habilidades">
-                        Figma
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptatem eligendi, excepturi illo exercitationem omnis unde aperiam.
-                    </p>
-                </div>
-                <div class="check">  
-                    <h4 class="text_habilidades">
-                        Sketch
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptatem eligendi, excepturi illo exercitationem omnis unde aperiam.
-                    </p>
-                </div>
-                <div class="check">
-                    <h4 class="text_habilidades">
-                        HTML & CSS
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptatem eligendi, excepturi illo exercitationem omnis unde aperiam.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============================================= 
+    <!-- ============================================= 
                         Projetos  
         ============================================= -->
 
-        <section class="box"> 
+    <section class="box">
+      <h2 class="title_projetos">Projetos</h2>
 
-            <h2 class="title_projetos">Projetos     
-            </h2>
+      <div class="box_projetos">
+        <h3 class="title_box">Studio Digital</h3>
+        <p class="text_projetos1">
+          Um Design Library versátil, com foco na colaboração e documentação.
+          <br />
+          Construído para ser utilizado em diferentes projetos, por todo o time
+          de design e melhorar as entregas.
+        </p>
+        <img
+          class="imgs1"
+          src="./imgs/firmbee-com-gcsNOsPEXfs-unsplash.jpg"
+          alt=""
+        />
+      </div>
 
-            <div class="box_projetos"> 
-                <h3 class="title_box">Studio Digital</h3>
-                <p class="text_projetos1">Um Design Library versátil, com foco na colaboração e
-                    documentação. <br> Construído para ser utilizado em diferentes projetos, por todo o
-                    time de design e melhorar as entregas.
-                </p>
-                <img class="imgs1" src="./imgs/firmbee-com-gcsNOsPEXfs-unsplash.jpg" alt="">
-            </div>
+      <div class="box_projetos">
+        <h3 class="title_box">Melhores Marcas</h3>
+        <p class="text_projetos">
+          Solução institucional com e-commerce integrado. <br />
+          A empresa oferece materiais de construção, bricolagem, jardinagem e
+          EPIs, entre outros.
+        </p>
+        <img
+          class="imgs2"
+          src="./imgs/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+          alt=""
+        />
+      </div>
 
-            <div class="box_projetos"> 
-                <h3 class="title_box">Melhores Marcas</h3>
-                <p class="text_projetos"> Solução institucional com e-commerce integrado. <br> A empresa
-                        oferece materiais de construção, bricolagem, jardinagem e EPIs, entre outros.</p>
-                <img class="imgs2" src="./imgs/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="">
-            </div>
+      <div class="box_projetos">
+        <h3 class="title_box">UX Case</h3>
+        <p class="text_projetos">
+          Sistema para o SAMU de São Paulo, voltado para a gestão de
+          ocorrências, <br />
+          de efetivo e recursos, das operações deflagradas em todo o território
+          nacional.
+        </p>
+        <img
+          class="imgs3"
+          src="./imgs/startae-team-QEsaXprgVfQ-unsplash.jpg"
+          alt=""
+        />
+      </div>
+    </section>
 
-            <div class="box_projetos">
-                <h3 class="title_box">UX Case</h3>
-                <p class="text_projetos"> Sistema para o SAMU de São Paulo, voltado para a gestão de
-                    ocorrências, <br> de efetivo e recursos, das operações deflagradas em todo o
-                    território nacional.</p>
-                <img class="imgs3" src="./imgs/startae-team-QEsaXprgVfQ-unsplash.jpg" alt="">
-            </div>
-            
-        </section>
-
-        <!-- ============================================= 
+    <!-- ============================================= 
                         Contato  
         ============================================= -->
 
-        <section>
-            <div class="contato">
-                <h3 class="title_contato">Contato:</h3>
-                <p id="contato">E-Mail: enzo@example.designer
-                </p>
-                <p id="contato">Fone: (11) 991002003</p>
-                <p class='atribuição'>copyright © - Gabriel Tsei </p>
-            </div>
-        </section>
-
-       
-    </body>
+    <section>
+      <div class="contato">
+        <h3 class="title_contato">Contato:</h3>
+        <p id="contato">E-Mail: enzo@example.designer</p>
+        <p id="contato">Fone: (11) 991002003</p>
+        <p class="atribuição">copyright © - Gabriel Tsei</p>
+      </div>
+    </section>
+  </body>
 </html>
