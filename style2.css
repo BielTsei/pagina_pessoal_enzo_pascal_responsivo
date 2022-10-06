@@ -717,7 +717,7 @@ nav {
   }
 }*/
 
-@media (min-width: 425px) {
+/*@media (min-width: 425px) {
   .fundo {
     margin: 0;
     height: 92vh;
@@ -1052,7 +1052,7 @@ nav {
     text-align: center;
     padding-bottom: 40px;
   }
-}
+}*/
 
 /*@media (min-width: 768px) {
   .fundo {
@@ -1332,7 +1332,7 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 25px;
   }
 
   .text_projetos {
@@ -1342,7 +1342,7 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 25px;
   }
 
   .imgs1 {
@@ -1388,9 +1388,9 @@ nav {
     font-size: 14px;
     text-align: center;
   }
-}
+}*/
 
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
   .fundo {
     margin: 0;
     height: 92vh;
