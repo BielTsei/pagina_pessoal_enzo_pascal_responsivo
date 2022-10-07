@@ -1126,12 +1126,12 @@ nav {
   }
 
   .title_sobre_mim h2 {
-    font-size: 38px;
+    font-size: 32px;
   }
 
   #sobre_mim {
     margin-bottom: 1vh;
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .paragrafo_sobre_mim {
@@ -1154,7 +1154,7 @@ nav {
     font-family: "Montserrat-Regular";
     font-weight: 800;
     display: inline-block;
-    font-size: 24px;
+    font-size: 22px;
     color: #261447;
     margin-bottom: 15px;
   }
@@ -1164,7 +1164,7 @@ nav {
     font-family: "Montserrat-Regular";
     width: 77vw;
     text-align: right;
-    font-size: 24px;
+    font-size: 22px;
     color: #261447;
   }
 
@@ -1237,7 +1237,7 @@ nav {
     font-size: 25px;
     color: #00a78e;
     width: 30vw;
-    height: 260px;
+    height: 280px;
     background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 0px 5px 15px 5px rgb(196 196 196 / 80%);
