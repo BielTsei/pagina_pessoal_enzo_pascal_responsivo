@@ -1067,29 +1067,29 @@ nav {
   }
 
   .nome {
-    font-size: 40px;
+    font-size: 38px;
     font-family: "Montserrat-Black";
-    margin-top: 20px;
+    margin-top: 15px;
     color: #261447;
   }
 
   .qualificacoes {
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Montserrat-Regular";
-    margin-top: 25px;
+    margin-top: 15px;
     letter-spacing: 2px;
   }
 
   .paragrafo {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     font-family: "Montserrat-Regular";
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   .foto {
     display: flex;
-    width: 300px;
+    width: 250px;
     position: absolute;
     right: 5px;
     bottom: 0;
@@ -1100,14 +1100,14 @@ nav {
     background-color: #00a78e;
     border: 0px;
     border-radius: 10px;
-    height: 65px;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: 55px;
+    padding-left: 45px;
+    padding-right: 45px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 200;
-    margin-top: 35px;
+    margin-top: 25px;
   }
 
   .button:hover {
